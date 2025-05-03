@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <title>Rotating Navigation</title>
+</head>
+<body>
+  <div class="container ">
+    <div class="circle-container">
+      <div class="circle">
+        <button id="close">
+          <i class="fas fa-times"></i>
+        </button>
+         <button id="open">
+          <i class="fas fa-bars"></i>
+         </button>
+      </div>
+    </div>
+    <div class="content">
+      <h1>Amazing Article</h1>
+      <small>Florin Pop</small>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur perspiciatis autem est laborum minima, ratione exercitationem ullam, quia maiores soluta enim aperiam molestiae fuga quaerat assumenda. Molestias pariatur itaque impedit beatae ratione accusantium vel culpa quibusdam, ut eligendi voluptatum vero eaque libero tempore incidunt quisquam ipsum ab magni magnam eveniet laudantium ducimus et quae iure. Esse, dolorum rem rerum eum dignissimos quia culpa maxime perferendis aliquam quidem voluptate quaerat incidunt iste vero ipsa fugiat quas illum hic harum minus placeat? Vel, excepturi. Error corrupti ipsam magni repudiandae. Facere eaque numquam magni. Tempore maiores ullam illo reiciendis fugit fugiat porro ratione.</p>
+
+      <h3>My Cat</h3>
+      <img class="pic" src="https://cdn.britannica.com/39/226539-050-D21D7721/Portrait-of-a-cat-with-whiskers-visible.jpg" alt="cat">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique corporis, accusamus tempora optio sit perspiciatis explicabo quidem, ipsam quo doloremque placeat! Esse facilis vitae, molestias quaerat quas consectetur asperiores tenetur hic quam dicta quasi vero repellat reprehenderit perferendis neque explicabo magni velit dolore est natus consequatur. Dicta ad perferendis enim repudiandae voluptatum dolor quam dolores nisi omnis ab, pariatur ducimus itaque expedita deleniti quod id eveniet, atque illo maiores quasi sit, aliquid labore cupiditate molestias.</p>
+    </div>
+  </div>
+
+  <nav>
+    <ul>
+      <li><i class="fas fa-home"></i>Home</li>
+      <li><i class="fas fa-user-alt"></i>About</li>
+      <li><i class="fas fa-envelope"></i>Contact</li>
+    </ul>
+  </nav>
+</body>
+<script src="logic.js"></script>
+</html>
